@@ -1,0 +1,19 @@
+{
+  "name": "line-liff-vue-typescript",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@line/liff": "2.24.0",
+    "vue": "3.4.33"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "5.0.5",
+    "typescript": "5.5.4",
+    "vite": "5.3.4",
+    "vue-tsc": "2.0.28"
+  }
+}
